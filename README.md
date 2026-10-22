@@ -23,6 +23,8 @@ Wie kann eine deutsche Bank den Weg von der ersten Anfrage bis zur Auszahlung di
 | **Regelbasiertes Routing** | Zuordnung der Anträge zu Fast-Track, Prüffall oder Risikofall | Testfälle A/B/C → Fast-Track / Prüffall / Risikofall |
 | **Prozesskostenmodell** | Wirkung eines höheren Fast-Track-Anteils auf die Kosten je Antrag | 15–20 % Fast-Track → **−9 % bis −17 %** Prozesskosten je Antrag |
 
+![Restschuldverlauf über die Zinsbindung](restschuld.png)
+
 Alle Annahmen sind eigene, illustrative Setzungen – keine realen Bankdaten. Der Routing-Prototyp steuert den Bearbeitungsweg, nicht die Kreditentscheidung.
 
 ## Rechtlicher Rahmen
@@ -39,6 +41,7 @@ BGB §§ 505a/b (Kreditwürdigkeitsprüfung) · ImmoKWPLV · EGBGB Art. 247 (ESI
 |---|---|
 | `Digitale_Immobilienfinanzierung.ipynb` | Jupyter Notebook mit den drei Prototypen |
 | `Praesentation_Digitale_Immobilienfinanzierung.pdf` | Projektpräsentation (25 Folien) |
+| `restschuld.png` | Grafik: Restschuldverlauf (vom Notebook erzeugt) |
 | `requirements.txt` | Benötigte Python-Pakete |
 
 ## Ausführen
@@ -50,7 +53,7 @@ jupyter notebook Digitale_Immobilienfinanzierung.ipynb
 
 ## Werkzeuge
 
-Python · pandas · Jupyter
+Python · pandas · Matplotlib · Jupyter
 
 ---
 
